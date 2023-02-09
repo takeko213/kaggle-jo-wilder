@@ -19,4 +19,5 @@ RUN pip install ipywidgets
 RUN pip install gensim
 RUN pip install annoy
 RUN pip install polars
+RUN pip install catboost
 
