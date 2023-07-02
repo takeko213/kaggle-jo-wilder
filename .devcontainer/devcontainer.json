@@ -11,9 +11,17 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
-	
+
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
+		"donjayamanne.githistory",
+		"ms-toolsai.jupyter",
+		"ms-python.vscode-pylance",
+		"ms-python.python",
+		"dongli.python-preview",
+		"shuworks.vscode-table-formatter",
+		"DavidAnson.vscode-markdownlint",
+		"shd101wyy.markdown-preview-enhanced"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -30,5 +38,5 @@
 
 	// Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "nobody"
-	
+
 }
